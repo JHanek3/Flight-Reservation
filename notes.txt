@@ -1,0 +1,25 @@
+ Introduction
+  useCase two different angular projects with java backend
+  Reservation APP find flights and then create a reservation
+  Once have reservation can checkIn to the flight
+  both will connect to Rest API Java Spring Boot connects to the DB for updates
+    and retrievals
+
+Flight Reservation UseCase
+  Find the flights, from city to city with departure date
+  clicks search gives you a backend call which will return the flights
+    and the client will click a select button that will render the flight information
+    once he its confirm saves the reservation and displays a confirmation screen
+
+Flight CheckIn UseCase
+  click start button when the passenger has reservation, enters the
+  reservation id with a backend call then the entire reservation is fetched
+  then enter the number of bags to checkIn then displays checkIn complete
+
+Create the Java Backend
+
+Create the DB Schema
+  we were given the schema, take a look at it in mySQL workbench
+
+Create the project
+  spring starter project
